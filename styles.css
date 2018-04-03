@@ -11,8 +11,83 @@
  }
 
  .boxes {
-     display: inline-block;
-     margin: 1rem;
-     padding: 0.5rem;
-     border: 5px;
+     display: block;
+     margin: 1em;
+     padding: 1em;
+     border: 5px solid black;
+     border-radius: 5px;
+     width: 20%;
  }
+
+ a:hover {
+     cursor: pointer;
+     font-weight: bold;
+     color: green;
+ }
+
+ span {
+     color: red;
+     font-family: cursive;
+ }
+
+ #box1 {
+    background-color: lightblue;
+ }
+
+ #box2 {
+    background-color: lightseagreen;
+    
+ }
+
+ #box3 {
+    background-color: lightgoldenrodyellow;
+ }
+
+ #box4 {
+    background-color: lightgreen;
+ }
+
+ .image {
+     background-color: gray;
+     width: 1rem;
+     height: 1rem;
+     position: relative;
+     bottom: 8rem;
+ }
+
+ h1 {
+     color: darkgreen;
+ }
+
+ .shows1 {
+     color: orange;
+ }
+
+ .shows2 {
+     color: darkorchid;
+ }
+
+ #header1 {
+color: darkblue;
+ }
+
+ #header2 {
+     color: darkgoldenrod;
+}
+
+#header3 {
+     color: darkred;
+}
+
+#header4 {
+     color: darkgreen;
+}
+
+#header5 {
+     color: darkmagenta;
+}
+
+.lists {
+    border: 2px solid black;
+    color: seagreen;
+}
